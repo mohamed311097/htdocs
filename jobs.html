@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Language set to english -->
+  <head>
+    <meta charset="utf-8">
+    <!--Character unicode has been set to utf-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mo Development</title>
+    <!-- title of th website -->
+    <link rel="stylesheet" href="css/jobs.css">
+    <!-- Internal link to other pages -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="images/x-icon">
+    <!-- flavicon icon refreneced from https://www.favicon-generator.org/search/ -->
+  </head>
+  <header class="logo">
+    <img src="images/logo4.png" class="logo" alt="logo">
+    <!-- logo placed in the header section -->
+  </header>
+  <nav>
+    <!-- menu bar below shows all pages -->
+    <ul>
+      <li class="nav-item"><a href="index.html" >Home</a></li>
+      <li class="nav-item"><a href="glossary.html" >Glossary</a></li>
+      <li class="nav-item"><a href="jobs.html">Jobs</a></li>
+      <li class="nav-item"><a href="AboutMe.html">AboutMe</a></li>
+      <li class="nav-item"><a href="models.html" >Models</a></li>
+      <li class="nav-item"><a href="validation.html" >Validation</a></li>
+    </ul>
+  </nav>
+  <body>
+    <!-- column layout of suggested jobs -->
+    <ul class="carousel">
+          <li>
+            <label class="dot" for="tab-0"></label>
+            <input class="banner" type="radio" name="toggle" checked="checked" id="tab-0"/>
+            <ul class="content">
+              <li><img src="images/web3.jpeg" alt="banner"/>
+                <label class="arrow back" for="tab-5"></label>
+                <label class="arrow next" for="tab-1"></label>
+              </li>
+            </ul>
+          </li>
+          <!-- banner image 1 displayed - right arrow for img 2 -->
+          <li>
+            <input class="banner" type="radio" name="toggle" id="tab-1"/>
+            <label class="dot" for="tab-1"></label>
+            <ul class="content">
+              <li><img src="images/game3.jpeg" alt="banner"/>
+                <label class="arrow back" for="tab-0"></label>
+                <label class="arrow next" for="tab-2"></label>
+              </li>
+            </ul>
+          </li>
+              <!-- banner image 2 displayed - right arrow for img 3 & left arrow img 1 -->
+          <li>
+            <input class="banner" type="radio" name="toggle" id="tab-2"/>
+            <label class="dot" for="tab-2"></label>
+            <ul class="content">
+              <li><img src="images/pro3.png" alt="banner"/>
+                <label class="arrow back" for="tab-1"></label>
+                <!-- arrow label above will go back to tab-1 shown above -->
+                <label class="arrow next" for="tab-3"></label>
+                <!-- arrow label above will go forward to tab-3 shown above -->
+              </li>
+            </ul>
+          </li>
+          <!-- banner image 3 displayed - right arrow for img 4 & left arrow img 2 -->
+          <li>
+            <input class="banner" type="radio" name="toggle" id="tab-3"/>
+            <label class="dot" for="tab-3"></label>
+            <ul class="content">
+              <li><img src="images/background2.jpg" alt="banner"/>
+                <label class="arrow back" for="tab-2"></label>
+                <label class="arrow next" for="tab-5"></label>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <input class="banner" type="radio" name="toggle" id="tab-5"/>
+            <label class="dot" for="tab-5"></label>
+                </li>
+              </ul>
+                <!-- header section for job comparasion -->
+                <div>
+                <h2 class="header2">
+                <span>JOB DESCRIPTION</span>
+                </h2>
+                </div>
+                <!-- below is the job comparision 3-2-1 layout -->
+                <div class="row">
+              <div class="column">
+                <div class="card">
+                  <img src="images/web4.jpg" alt="web-development" style="width:100%">
+                  <div class="container">
+                    <h3>Web Developer</h3>
+                    <p class="title"> Job Summary</p>
+                    <p><a class="link" href="https://www.prospects.ac.uk/job-profiles/web-developer">Web developers</a> build and maintain websites and web applications. Although their work usually focuses solely on the underlying software and databases (known as the 'back end'), some web developers work on the interface and visual design (the 'front end'), while others combine both ('full-stack development').</p>
+                    <p>writing code in one or more programming or scripting languages, such as PHP or JavaScript, plus also planning and prototyping new applications in some jobs designing the architecture of the components of an application is part of the job and finally also testing new features thoroughly to ensure they perform the correct task in all cases. In simplified terms learning and testing new technologies, and languages and if you're an open minded indivual and eager, then this is for you.</p>
+                    <p>Salary: £25,000 yearly</p>
+                  </div>
+                </div>
+              </div>
+              <!-- above is the job comparision for web development comes with external link -->
+              <div class="column">
+                <div class="card">
+                  <img src="images/game4.jpeg" alt="Game Designer" style="width:100%">
+                  <div class="container">
+                    <h3>Game Designer</h3>
+                    <p class="title"> Job Summary</p>
+                    <p>Working as a <a class="link" href="https://study.com/articles/Game_Designer_Job_Info_and_Requirements_for_Becoming_a_Game_Designer.html">game designer</a> you'll be involved in the creation and production of games for personal computers, games consoles, social/online games, arcade games, tablets, mobiles and other devices. Your work will usually be concerned with either design (including art and animation) or programming.</p>
+                    <p>When it comes to the day to day job role their are certain requirements necessary of each designer being capable of achieving. For example developing designs or initial concept designs for games including game play. Finally using 2D or 3D modelling and animation software, such as Maya, at the production stage. These different elements are the normal standards required to become a professional game designer and if you're an open minded indivual and eager, then this is for you.</p>
+                    <p>Salary: £25,000 yearly </p>
+                  </div>
+                </div>
+              </div>
+              <!-- above is the job comparision for game designer comes with external link -->
+              <div class="column">
+                <div class="card">
+                  <img src="images/pro4.jpg" alt="Turker" style="width:100%">
+                  <div class="container">
+                    <h3>Programmer</h3>
+                    <p class="title"> Job Summary</p>
+                    <p><a class="link" href="https://www.totaljobs.com/careers-advice/job-profile/it-jobs/programmer-job-description">Computer programmers</a> write code to create software programs. They turn the program designs created by software developers and engineersinto instructions that a computer can follow. They are required to write programs in a variety of computer languages, such as C++, Python, Ruby and Java. Also updating and expanding existing programs are also requierd .</p>
+                      <p>Furthermore your role would also require the debugging of programs by testing for and fixing errors. These are the initial elements required to become a fully fledged programmer. Some programs are  relatively simple and usually take a few days to write. Other programs, like computer operating systems, are more complex and can take a year or more to complete.</p>
+                      <p>Salary: £31,000 yearly</p>
+                  </div>
+                <!-- above is the job comparision for computer programmer comes with external link -->
+            <footer class="contact2">
+            <div class="footer-secion">
+            </div>
+              <form method="post" action="send" class="contact3">
+                  <h4 class="contact4"> GET IN TOUCH</h4>
+                <label for="name_input" id="name_label">Enter Name</label>
+                <input name="name" type="text" id="name_input" placeholder="Enter Name" required>
+              <!-- form for entering name -->
+                <label for="telephone_input" id="telephone_label">Telephone</label>
+                <input name="phone_input" type="text" id="telephone_input" placeholder="Enter Phone Number" required>
+              <!-- form for entering email -->
+                <label for="email_input" id="email_label">Email</label>
+                <input name="email" type="text" id="email_input" required placeholder="Email">
+                <!-- form for entering phone -->
+                <label for="information" id="information_label">Any Concerns?</label>
+                <textarea name="message" id="information" required placeholder="Any Concerns? Please enter here"></textarea>
+                <!-- button for actioning the entered information -->
+                <button type="submit" name="submit" class="btn" id="submit_btn">Send</button>
+                </form>
+               </footer>
+             </div>
+           </div>
+         </div>
+  </body>
+</html>

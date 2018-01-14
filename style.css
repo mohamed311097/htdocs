@@ -1,0 +1,324 @@
+/* This pages show the styling for the aboutme page */
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.4em;
+  color: #222;
+  background: white;
+  font-family: 'Lato', sans-serif;
+}
+/* above is the styling for both body part*/
+a{
+  text-decoration: none;
+  color: inherit;
+}
+/* above is the styling for referencial Links */
+/* Below is the styling for both Header & Navigation */
+
+header{
+  max-width: 100%;
+  background: white;
+  padding: 20px;
+}
+
+nav{
+  width: 100%;
+  margin-bottom: 0em;
+  background: #cc0000;
+  font-family: 'Poiret One', cursive;
+}
+
+.logo{
+justify-content: flex-end;
+margin-left: 243px;
+margin-top: -25px;
+margin-bottom: -10px;
+}
+/* above is the styling for logo*/
+ul{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  color: white;
+  font-style: normal;
+  text-align: center;
+  -webkit-transition: max-height 0.5s;
+  transition: max-height 0.5s;
+}
+
+.nav-item{
+  display: inline-block;
+  padding: 20px;
+  font-size: 1.5em;
+  margin-right: 20px;
+
+}
+
+.nav-item:hover{
+  background: #474747;
+  cursor: pointer;
+}
+
+.menu-bar{
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #B40404;
+  text-align: center;
+  padding: 15px 20px;
+  color: #fff;
+  font-size: 1.4em;
+  cursor: pointer;
+  display: none;
+}
+/* below is the styling for banner image displayed*/
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0px;
+}
+.img{
+  max-width: 100%;
+  height: auto;
+}
+.banner{
+  max-width: 1490px;
+  max-height: 100%;
+}
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 27%;
+    margin-bottom: 0px;
+    padding: 0 12px;
+    margin-top: 90px;
+    margin-left: 47px;
+}
+/* below alignment of the cards*/
+.card {
+  text-align: center;
+}
+.profile-header{
+  text-align: center;
+  font-size: 80px;
+}
+.header-profile {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 30px;
+    margin-bottom: -70px;
+    margin-top: 25px;
+}
+
+.header-profile > h1 {
+    position: relative;
+    display: inline-block;
+}
+
+.header-profile > h1:before,
+.header-profile > h1:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 5px;
+    background: black;
+}
+
+.header-profile > h1:before {
+    right: 100%;
+    margin-right: 35px;
+}
+
+.header-profile > h1:after {
+    left: 100%;
+    margin-left: 35px;
+}
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+/* Clear floats */
+.container::after, .row::after {
+    clear: both;
+    display: table;
+}
+.title {
+    color: grey;
+}
+.details{
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+/* below is video seciton */
+.video{
+  font-size: 30px;
+  text-align: center;
+  color: black;
+display: inline;
+margin-bottom: 50px;
+
+}
+.vid{
+  margin-top: 20px;
+  margin-bottom: -60px;
+}
+/* Below is the styling for the contact form in the footer */
+* {
+  box-sizing: border-box;
+}
+.contact2{
+width: 1490px;
+height: 600px;
+border: solid 4px #B40404;
+margin-left: -135px;
+margin-right: 0 auto;
+margin-bottom: 0px;
+margin-top: 50px;
+background: #B40404;
+}
+.footer-section{
+background: #B40404;
+align-items: center;
+align-content: center;
+margin-left: 40px;
+}
+.contact3{
+margin-left: 200px;
+width: 1200px;
+height: 50px;
+
+}
+/* below is title in the contact form */
+h4 {
+  font-size: 80px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 80px;
+  margin-left: -40px;
+  color: white;
+}
+.contact4{
+  margin-left: -10px;
+}
+/* below is styling for actual form in footer section */
+form {
+  margin: 15px auto;
+  max-width: 2450px;
+  padding: -20px;
+  margin-bottom: 2px;
+}
+form p {
+  color: #01b7df;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+form label {
+  width: 100%;
+  display: none;
+  margin-bottom: 20px;
+}
+/* below is styling input section in conract form */
+form input {
+  margin-bottom: 24px;
+  transition: padding 0.2s;
+}
+form input:focus {
+  padding: 20px;
+}
+/* below is styling text area section in conract form */
+form textarea {
+  min-height: 100px;
+  margin-bottom: 25px;
+  resize: vertical;
+  transition: padding 0.2s;
+}
+form textarea:focus {
+  padding: 10px 10px 20px;
+}
+form input, form textarea {
+  width: 100%;
+  display: block;
+  padding: 7px;
+  border: 1px solid #d2d2d2;
+  background-color: #eee;
+  font-family: sans-serif;
+  color: #008fae;
+  margin-bottom: 25px;
+}
+/* below is styling butoon section in conract form */
+form button {
+  background-color: #01b7df;
+  border: 0px;
+  display: block;
+  width: 30%;
+  border-bottom: 0px solid #008fae;
+  padding: 15px 20px;
+  color: #fff;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+  margin-left: 450px;
+  margin-bottom: -20px;
+  margin-top: 40px;
+}
+form button:hover {
+  background-color: #008fae;
+}
+
+/*Media Queries*/
+/*Media Queries*/
+/*styling will alllow this site to be viewed in mobile, tablet devizes*/
+/*styling below will effect the page when the dimensions reach 710px*/
+@media only screen and (max-width: 710px) {
+  .logo{
+  width: 70%;
+  margin-left: 80px;}
+/*styling for logo above will allow it to stay above menubar and grow smaller*/
+.contact2{
+  width: 530px;
+  margin-left: 0px;
+}
+/*styling for contact will make the form smaller to fit screen*/
+
+.contact3{
+  width: 85%;
+  margin-left: 10px;
+}
+.contact4{
+  font-size: 50px;
+}
+.header-profile{
+  font-size: 20px;
+}
+/*styling for text index page*/
+
+p{
+  font-size: 15px;
+}
+/*styling for main banner in index page*/
+.banner2{
+  width: 100%;
+}
+/*styling for video in the index page*/
+.vid{
+  width: 100%;
+}
+/*styling below will move button to center of form*/
+form button{
+  margin-left: 150px;
+}
+/* Display the columns below each other instead of side by side on small screens */
+@media (max-width: 42.56em) {
+    .column {
+        width: 70%;
+        display: inline-block;
+    }
+}
